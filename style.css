@@ -1,0 +1,104 @@
+/*
+ Theme Name:   Neve Child
+ Theme URI:    http://localhost/portfolio/
+ Description:  Neve Child Theme
+ Author:       Monica Strandgaard Petersen
+ Author URI:   http://localhost/portfolio/
+ Template:     neve
+ Version:      0.2.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  nevechild
+*/
+
+@font-face {
+    font-family: source sans pro;  
+    src: url(https://www.simply.com/dk/controlpanel/monicastrandgaard.dk/filebrowser/?path=/public_html/wp-content/fonts/source%20sans%20pro);  
+    font-weight: normal;  
+}
+
+/* Styling af kontakt-button */
+a.button.button-primary{
+  display: inline-block;
+  padding: 8px 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #F33333;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px #EBD4D4;
+  font-family: 'source sans pro' !important;
+  text-transform: uppercase;
+}
+  
+a.button.button-primary:hover{
+  background-color: #BB9A7A;
+}
+
+a.button.button-primary:active {
+  background-color: #BB9A7A;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Styling af resterende buttons */
+a.elementor-button-link.elementor-button.elementor-size-sm{
+  display: inline-block;
+  padding: 8px 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #F33333;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px #EBD4D4;
+  font-family: 'source sans pro' !important;
+  text-transform: uppercase;
+}
+
+a.elementor-button-link.elementor-button.elementor-size-sm:hover{
+  background-color: #BB9A7A;
+}
+
+a.elementor-button-link.elementor-button.elementor-size-sm:active {
+  background-color: #BB9A7A;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Styling af H2-elementer */
+h2.elementor-heading-title.elementor-size-default {
+  color: #F33333 !important;
+  font-family: 'source sans pro' !important;
+  text-transform: uppercase;
+}
+
+/* Få menuen til at forsvinde på undersider */
+.page-id-563 .site-header .header--row-inner {
+  display: none
+}
+.page-id-255 .site-header .header--row-inner {
+  display: none
+}
+.page-id-1257 .site-header .header--row-inner {
+  display: none
+}
+.page-id-1158 .site-header .header--row-inner {
+  display: none
+}
+
+/* Styling af navbar */
+.nav-ul li a{
+  padding-right: 25px;
+  font-family: 'source sans pro' !important;
+  text-transform: uppercase;
+}
+.nav-ul li a:hover{
+  color: #F33333;
+}
